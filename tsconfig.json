@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2024",
+    "target": "es2022",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -15,7 +15,7 @@
     "jsx": "preserve",
     "incremental": true,
     "noUncheckedIndexedAccess": true,
-    "ignoreDeprecations": "6.0",
+    // "ignoreDeprecations": "6.0",
     "paths": {
       "@/*": ["./src/*"]
     }
